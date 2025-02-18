@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE flow5>
+<xflplane version="1.0">
+    <Units>
+        <length_unit_to_meter>0.3048</length_unit_to_meter>
+        <area_unit_to_m2>0.092903</area_unit_to_m2>
+        <mass_unit_to_kg>0.453592</mass_unit_to_kg>
+        <speed_unit_to_ms>0.3048</speed_unit_to_ms>
+        <inertia_unit_to_kgm2>0.0421401</inertia_unit_to_kgm2>
+    </Units>
+    <Plane>
+        <Name>MH 32  8.7% 6 0</Name>
+        <The_Style>
+            <Stipple>SOLID</Stipple>
+            <PointStyle>NOSYMBOL</PointStyle>
+            <Width>2</Width>
+            <Color>
+                <red>160</red>
+                <green>160</green>
+                <blue>164</blue>
+                <alpha>255</alpha>
+            </Color>
+        </The_Style>
+        <wing>
+            <Name>Main Wing</Name>
+            <Type>MAINWING</Type>
+            <Color>
+                <red>146</red>
+                <green>164</green>
+                <blue>111</blue>
+                <alpha>255</alpha>
+            </Color>
+            <Description/>
+            <Position>          0,           0,           0</Position>
+            <Tip_Strips>1</Tip_Strips>
+            <Rx_angle>  0.000</Rx_angle>
+            <Ry_angle>  0.000</Ry_angle>
+            <symmetric>true</symmetric>
+            <Two_Sided>true</Two_Sided>
+            <Closed_Inner_Side>false</Closed_Inner_Side>
+            <AutoInertia>true</AutoInertia>
+            <Inertia>
+                <Mass>    0.00000</Mass>
+                <CoG>0.66187, 6.3276e-17, 0.01941</CoG>
+                <CoG_Ixx>          0</CoG_Ixx>
+                <CoG_Iyy>          0</CoG_Iyy>
+                <CoG_Izz>          0</CoG_Izz>
+                <CoG_Ixz>          0</CoG_Ixz>
+            </Inertia>
+            <Sections>
+                <Section>
+                    <y_position>  0.000</y_position>
+                    <Chord>  1.000</Chord>
+                    <xOffset>  0.000</xOffset>
+                    <Dihedral>  0.000</Dihedral>
+                    <Twist>  0.000</Twist>
+                    <x_number_of_panels>13</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>19</y_number_of_panels>
+                    <y_panel_distribution>INV_SINE</y_panel_distribution>
+                    <Left_Side_FoilName>MH 32  8.7%</Left_Side_FoilName>
+                    <Right_Side_FoilName>MH 32  8.7%</Right_Side_FoilName>
+                </Section>
+                <Section>
+                    <y_position>  3.000</y_position>
+                    <Chord>  1.000</Chord>
+                    <xOffset>  0.000</xOffset>
+                    <Dihedral>  0.000</Dihedral>
+                    <Twist>  0.000</Twist>
+                    <x_number_of_panels>13</x_number_of_panels>
+                    <x_panel_distribution>COSINE</x_panel_distribution>
+                    <y_number_of_panels>5</y_number_of_panels>
+                    <y_panel_distribution>UNIFORM</y_panel_distribution>
+                    <Left_Side_FoilName>MH 32  8.7%</Left_Side_FoilName>
+                    <Right_Side_FoilName>MH 32  8.7%</Right_Side_FoilName>
+                </Section>
+            </Sections>
+        </wing>
+    </Plane>
+</xflplane>
